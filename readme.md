@@ -71,9 +71,21 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
+<!-- Installation Instructions -->
+
 After Cloning the Repository
 
 1. cd lara_vue_crud
 2. npm install node modules cuz it was ignored in the repository push process
 3. and I have ignored other default gitignored files as well
-4. then run
+4. open your mysql/phpmyadmin localhost
+5. create a new database "lara_vue_crud" inside it
+6. import the database from the DB-SQL folder
+7. change your .env file
+   (Ex: DB_DATABASE=lara_vue_crud
+   DB_USERNAME=root
+   DB_PASSWORD= )
+8. cd lara_vue_crud -> run -> "npm run watch" command
+9. cd lara_vue_crud -> run -> "php artisan serve" command
+10. 127.0.0.1:8000 default port to check the application
+11. Default Login credentials - email: admin@gmail.com, password: 12345678
